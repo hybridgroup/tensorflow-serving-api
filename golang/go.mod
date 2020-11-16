@@ -1,6 +1,6 @@
-module github.com/alex/tensorflow-serving-api-go
+module github.com/hybridgroup/tensorflow-serving-api-go
 
-go 1.14
+go 1.15
 
 replace (
 	github.com/tensorflow/tensorflow => ./github.com/tensorflow/tensorflow
@@ -8,7 +8,6 @@ replace (
 )
 
 require (
-	github.com/golang/protobuf v1.4.3
 	github.com/northvolt/firefly-code-scan v0.0.0-20201105154142-8c47ae58e862
 	github.com/tensorflow/tensorflow v0.0.0-00010101000000-000000000000
 	gocv.io/x/gocv v0.25.0
