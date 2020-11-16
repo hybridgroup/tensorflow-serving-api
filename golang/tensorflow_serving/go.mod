@@ -1,6 +1,6 @@
-module tensorflow_serving
+module github.com/hybridgroup/tensorflow-serving-api/golang/tensorflow_serving
 
-go 1.14
+go 1.15
 
 require (
 	github.com/golang/protobuf v1.4.3
